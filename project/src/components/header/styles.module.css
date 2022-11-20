@@ -56,18 +56,23 @@
 }
 
 .button{
-    margin-left: 250px;
+    margin-left: 90px;
 }
 
 .button>button{
     margin-left: 25px;
     margin-bottom: 10px;
     background-color: aqua;
-    width: 75px;
-    height: 25px;
+    width: 80px;
+    height: 30px;
     border-radius: 10px;
     font-size: medium;
     font-style: oblique;
     color: rgb(185, 129, 17);
-    
+}
+
+.cart{
+    color: rgb(84, 92, 15);
+    margin-top: 10px;
+    margin-left: 75px;
 }
