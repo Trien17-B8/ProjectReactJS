@@ -15,9 +15,7 @@ import Guide from "../../pages/guide/guide";
 function HeaderWeb() {
   return (
     <div className={styles.body}>
-      <div className={styles.banner}>
-        <img src="https://hanoitop10.net/wp-content/uploads/banner-giay-da-bong-nike_493a933a8d0a41f0b8a1aa346b0a34e5.jpg"></img>
-      </div>
+        <img className={styles.banner} src="https://hanoitop10.net/wp-content/uploads/banner-giay-da-bong-nike_493a933a8d0a41f0b8a1aa346b0a34e5.jpg"></img>
       <div className={styles.header}>
         <input
           className={styles.search}
@@ -35,7 +33,7 @@ function HeaderWeb() {
             <TbShoe/> <Link to="/products">Products</Link>
           </li>
           <li className={styles.a}>
-            <BsBookHalf /> <Link to="/guide">Hướng Dẫn</Link>
+            <BsBookHalf /> <Link to="/guide">Instruction</Link>
           </li>
         </ul>
         <BsFillCartCheckFill size="25px" className={styles.cart} />
