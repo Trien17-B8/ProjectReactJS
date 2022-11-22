@@ -23,7 +23,7 @@
 }
 .header>.title{
     display: inline-block;
-    width: 45%;
+    width: 55%;
     margin-top: 20px;
     margin-left: 50px;
 }
@@ -43,6 +43,20 @@
     
 }
 
+.a>a:hover{
+    color: gold;
+    
+}
+
+.a:hover{
+    color: gold;
+}
+
+
+.texta{
+    color: chartreuse;
+}
+
 .search{
     border: 0px solid rgb(111, 209, 30);
     border-radius: 15px;
@@ -56,11 +70,11 @@
 }
 
 .button{
-    margin-left: 90px;
+    margin-left: 30px;
 }
 
 .button>button{
-    margin-left: 25px;
+    margin-left: 15px;
     margin-bottom: 10px;
     background-color: aqua;
     width: 80px;
@@ -71,8 +85,12 @@
     color: rgb(185, 129, 17);
 }
 
+.cart:hover{
+    color: red;
+}
+
 .cart{
     color: rgb(84, 92, 15);
     margin-top: 10px;
-    margin-left: 75px;
+    margin-left: 35px;
 }

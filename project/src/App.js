@@ -1,14 +1,14 @@
 import HeaderWeb from "./components/header";
 import FooterPage from "./components/footer";
-import Login from "./pages/login/login";
-import {useEffect} from 'react'
 
+import LoginForm from "./components/loginform/loginform";
+import RegisterForm from "./components/registerform/registerform";
 function App() {
   return (
     <div className="App">
       
       <HeaderWeb />
-        <Login></Login>
+        <RegisterForm/>
       <FooterPage />
     </div>
   );

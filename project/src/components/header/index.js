@@ -24,16 +24,16 @@ function HeaderWeb() {
         ></input>
         <ul className={styles.title}>
           <li className={styles.a}>
-            <AiTwotoneHome /> <Link to="/">Home</Link>
+            <AiTwotoneHome /> <Link to="/">HOME</Link>
           </li>
           <li className={styles.a}>
-            <BiCommentDetail /> <Link to="/contacts">Contacts</Link>
+            <BiCommentDetail /> <Link className={styles.texta} to="/contacts">CONTACTS</Link>
           </li>
           <li className={styles.a}>
-            <TbShoe/> <Link to="/products">Products</Link>
+            <TbShoe/> <Link to="/products">PRODUCTS</Link>
           </li>
           <li className={styles.a}>
-            <BsBookHalf /> <Link to="/guide">Instruction</Link>
+            <BsBookHalf /> <Link to="/guide">INSTRUCTION</Link>
           </li>
         </ul>
         <BsFillCartCheckFill size="25px" className={styles.cart} />
