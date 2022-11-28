@@ -1,0 +1,29 @@
+{
+    "shoes":[
+        {
+            "id": "1",
+            "name": "Giày Nike Mercurial",
+            "size": [40,41,42,43,44,45],
+            "images": "https://jbtouch.com/photo/giay-dinh-tf1.jpg",
+            "description": "Màu cam",
+            "price": 3400000
+            
+           },
+           {
+            "id": "2",
+            "name": "Giày Copa 19 Dybala",
+            "size": [40,41,42,43,44,45],
+            "images": "https://visitemg.com/photo/hieu-ve-giay-dinh-da-bong-tf-cho-san-co-nhan-tao.jpg",
+            "description": "Giày trắng xịn",
+            "price": 4100000
+           },
+           {
+            "id": "3",
+            "name": "Giày Adidas Predator 19.3",
+            "size": [40,41,42,43,44,45],
+            "images": "https://cf.shopee.vn/file/82736de9ff1c6fb8f423464061df8d6b",
+            "description": "Giày đỏ ",
+            "price": 2700000
+           }
+    ]
+}
