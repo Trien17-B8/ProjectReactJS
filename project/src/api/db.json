@@ -24,6 +24,50 @@
             "images": "https://cf.shopee.vn/file/82736de9ff1c6fb8f423464061df8d6b",
             "description": "Giày đỏ ",
             "price": 2700000
+           },
+           {
+            "id": "4",
+            "name": "Giày Wika 3 sọc",
+            "size": [40,41,42,43,44,45],
+            "images": "https://vn-test-11.slatic.net/shop/627b4d94be7f0803fc2f018f90a59b81.jpeg",
+            "description": "Giày trắng ",
+            "price": 270000
+           },
+           {
+            "id": "5",
+            "name": "Giày Nike Vapo 19",
+            "size": [40,41,42,43,44,45],
+            "images": "https://lyfyou.com/photo/bi-quyet-chon-mua-giay-da-bong-chinh-hang-sale-off.jpg",
+            "description": "Giày Vàng ",
+            "price": 2470000
+           },
+           {
+            "id": "6",
+            "name": "Giày Adidas Copa 19",
+            "size": [40,41,42,43,44,45],
+            "images": "https://zocker.vn/photo/giay-da-bong-tre-em-nen-chon-de-day-hay-de-mong-2.jpg",
+            "description": "Giày đinh dài ",
+            "price": 2500000
+           },
+           {
+            "id": "7",
+            "name": "Giày Nike Vapo",
+            "size": [40,41,42,43,44,45],
+            "images": "https://visitemg.com/photo/cach-chon-mua-giay-bong-da-san-co-nhan-tao.jpg",
+            "description": "Giày đinh ngắn ",
+            "price": 2500000
+           },
+           {
+            "id": "8",
+            "name": "Giày Adidas X18",
+            "size": [40,41,42,43,44,45],
+            "images": "https://vn-live-01.slatic.net/p/acc4cf2810a35f3e895c69cb9d34aa88.jpg",
+            "description": "Giày đinh ngắn ",
+            "price": 2500000
            }
+
+
+           
+           
     ]
 }

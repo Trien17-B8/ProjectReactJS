@@ -2,7 +2,9 @@ import styles from "./styles.module.css";
 
 function LoginForm() {
   return (
-    <div className={styles.form}>
+    <>
+      <form>
+      <div className={styles.form}>
       <h1 className={styles.h1}>Login Form</h1>
       <div className={styles.user}>
         <label className={styles.lable}>Username </label>
@@ -25,6 +27,8 @@ function LoginForm() {
       <div></div>
       <button className={styles.button}>Login</button>
     </div>
+      </form>
+    </>
   );
 }
 
