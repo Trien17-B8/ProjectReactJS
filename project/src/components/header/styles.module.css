@@ -73,16 +73,23 @@
     margin-left: 30px;
 }
 
-.button>button{
-    margin-left: 15px;
+
+
+.login{
+    font-size: 15pt;
+    text-decoration: none;
+    margin-left: 25px;
     margin-bottom: 10px;
-    background-color: aqua;
-    width: 80px;
-    height: 30px;
-    border-radius: 10px;
-    font-size: medium;
-    font-style: oblique;
-    color: rgb(185, 129, 17);
+    border: 3px solid rgb(184, 173, 111);
+    border-radius: 3px;
+    background-color: rgb(26, 121, 108);
+    width: 120px;
+    height: 50px;
+    color: rgb(241, 240, 239);
+}
+
+.login:hover{
+    background-color: rgb(111, 209, 30);
 }
 
 .cart:hover{
@@ -93,4 +100,8 @@
     color: rgb(84, 92, 15);
     margin-top: 10px;
     margin-left: 35px;
+}
+
+Link{
+    border: 2px solid black;
 }

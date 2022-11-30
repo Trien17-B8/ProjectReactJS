@@ -1,6 +1,12 @@
+import { useState } from "react";
 import styles from "./styles.module.css";
 
 function LoginForm() {
+
+  const [user, setUser] = useState("");
+  const [password, setPassword] = useState("");
+
+
   return (
     <>
       <form>
@@ -13,6 +19,8 @@ function LoginForm() {
           type="text"
           placeholder="UserName"
           className={styles.input}
+          value={user}
+          onChange={(e) => setUser(e.target.value)}
         ></input>
       </div>
       <div className={styles.pass}>
@@ -22,6 +30,8 @@ function LoginForm() {
           type="password"
           placeholder="Password"
           className={styles.input}
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
         ></input>
       </div>
       <div></div>

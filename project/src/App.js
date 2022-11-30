@@ -24,9 +24,57 @@ function App() {
               </>
             }
           />
-          <Route path="/contacts" element={<><HeaderWeb /><Contacts /><FooterPage /></>} />
-          <Route path="/products" element={<><HeaderWeb /><Products /><FooterPage /></>} />
-          <Route path="/guide" element={<><HeaderWeb /><Guide /><FooterPage /></>} />
+          <Route
+            path="/contacts"
+            element={
+              <>
+                <HeaderWeb />
+                <Contacts />
+                <FooterPage />
+              </>
+            }
+          />
+          <Route
+            path="/products"
+            element={
+              <>
+                <HeaderWeb />
+                <Products />
+                <FooterPage />
+              </>
+            }
+          />
+          <Route
+            path="/guide"
+            element={
+              <>
+                <HeaderWeb />
+                <Guide />
+                <FooterPage />
+              </>
+            }
+          />
+
+          <Route
+            path="/login"
+            element={
+              <>
+                <HeaderWeb />
+                <LoginForm />
+                <FooterPage />
+              </>
+            }
+          />
+          <Route
+            path="/register"
+            element={
+              <>
+                <HeaderWeb />
+                <RegisterForm />
+                <FooterPage />
+              </>
+            }
+          />
         </Routes>
       </>
     </div>

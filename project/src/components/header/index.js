@@ -33,8 +33,8 @@ function HeaderWeb() {
         </ul>
         <BsFillCartCheckFill size="25px" className={styles.cart} />
         <span className={styles.button}>
-          <button name="login" >Login </button>
-          <button name="signUp">Sign Up</button>
+          <Link to="/login" className={styles.login}>Login</Link>
+          <Link to="/register" className={styles.login}>Register</Link>
         </span>
       </div>
      
