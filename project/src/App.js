@@ -5,11 +5,20 @@ import LoginPage from "./pages/login/login";
 import Contacts from "./pages/contacts/contacts";
 import Products from "./pages/product/product";
 import Guide from "./pages/guide/guide";
+import Cart from "./pages/cart/cart";
 
 import LoginForm from "./components/loginform/loginform";
 import RegisterForm from "./components/registerform/registerform";
 import { Route, Routes } from "react-router-dom";
+import { useState } from "react";
+
 function App() {
+  const [cart, setCart] = useState([]);
+  console.log(cart);
+  const addtoCart = (data) => {
+    setCart([...cart, { ...data, quantity: 1 }]);
+  };
+
   return (
     <div className="App">
       <>
@@ -18,8 +27,8 @@ function App() {
             path="/"
             element={
               <>
-                <HeaderWeb />
-                <HomePage />
+                <HeaderWeb count={cart.length}/>
+                <HomePage addtoCart={addtoCart} />
                 <FooterPage />
               </>
             }
@@ -28,17 +37,17 @@ function App() {
             path="/contacts"
             element={
               <>
-                <HeaderWeb />
+                <HeaderWeb count={cart.length}/>
                 <Contacts />
                 <FooterPage />
               </>
             }
           />
           <Route
-            path="/products"
+            path="/products/:id"
             element={
               <>
-                <HeaderWeb />
+                <HeaderWeb count={cart.length}/>
                 <Products />
                 <FooterPage />
               </>
@@ -48,8 +57,18 @@ function App() {
             path="/guide"
             element={
               <>
-                <HeaderWeb />
+                <HeaderWeb count={cart.length}/>
                 <Guide />
+                <FooterPage />
+              </>
+            }
+          />
+          <Route
+            path="/cart"
+            element={
+              <>
+                <HeaderWeb count={cart.length}/>
+                <Cart cart={cart}/>
                 <FooterPage />
               </>
             }
@@ -59,7 +78,7 @@ function App() {
             path="/login"
             element={
               <>
-                <HeaderWeb />
+                <HeaderWeb count={cart.length}/>
                 <LoginForm />
                 <FooterPage />
               </>
@@ -69,7 +88,7 @@ function App() {
             path="/register"
             element={
               <>
-                <HeaderWeb />
+                <HeaderWeb count={cart.length}/>
                 <RegisterForm />
                 <FooterPage />
               </>

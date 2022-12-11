@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+}
+
+.title{
+    color: rgb(231, 73, 73);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 12pt;
+}
+
+.nike{
+    width: 660px;
+    height: 330px;
+    margin-top: 90px;
+}

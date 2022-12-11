@@ -1,3 +1,80 @@
+.img{
+    width: 800px;
+    height: 550px;
+}
+
+.container{
+    background-color: rgb(209, 178, 214);
+    display: flex;
+}
+
 .title{
-    margin-top: 0px;
+    font-size: 35pt;
+    color: aqua;
+    margin-left: 255px;
+}
+
+.form{
+    display: block;
+    margin-left: 120px;
+    margin-top: 30px;
+    
+}
+
+.name{
+    margin-top: 25px;
+    margin-left: 55px;
+}
+
+.email{
+    margin-top: 25px;
+    margin-left: 55px;
+}
+
+.message{
+    margin-top: 25px;
+    margin-left: 55px;
+}
+
+.inputUser{
+    width: 220px;
+    height: 25px;
+    margin-left: 37px;
+    border: 2px solid rgb(69, 69, 120);
+    border-radius: 3px;
+}
+
+.inputMail{
+    width: 220px;
+    height: 25px;
+    margin-left: 42px;
+    border: 2px solid rgb(69, 69, 120);
+    border-radius: 3px;
+}
+
+.inputMessage{
+    width: 220px;
+    margin-left: 18px;
+    border: 2px solid rgb(69, 69, 120);
+    border-radius: 3px;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 195px;
+    color: white;
+    background-color: rgb(8, 65, 43);
+    border: 2px solid rgb(8, 65, 43);
+    border-radius: 3px;
+}
+
+.button:hover{
+    background-color: red;
+}
+
+.text{
+    font-size: larger;
+    font-style: italic;
 }

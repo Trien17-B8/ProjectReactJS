@@ -1,9 +1,14 @@
+.body{
+    background-color: rgb(170, 117, 156);
+}
+
 .form{
     margin-top: 70px;
     margin-left: 655px;
+    margin-bottom: 115px;
     width: 300px;
     height: 500px;
-    border: 10px solid rgb(188, 195, 64);
+    border: 3px solid rgb(188, 195, 64);
     border-radius: 5px;
     display: block;
 }
@@ -18,6 +23,8 @@
 .h1{
     text-align: center;
     color: rgb(25, 39, 34);
+    font-size: 30pt;
+    font-weight: bolder;
 }
 
 .pass{
@@ -49,4 +56,5 @@
     font-weight: bold;
     color: white;
     background-color: blue;
+    margin-bottom: 50px;
 }

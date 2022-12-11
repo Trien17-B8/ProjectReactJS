@@ -80,28 +80,33 @@
     text-decoration: none;
     margin-left: 25px;
     margin-bottom: 10px;
-    border: 3px solid rgb(184, 173, 111);
+    border: 3px solid rgb(8, 65, 43);
     border-radius: 3px;
-    background-color: rgb(26, 121, 108);
+    background-color: rgb(8, 65, 43);
     width: 120px;
     height: 50px;
     color: rgb(241, 240, 239);
 }
 
 .login:hover{
-    background-color: rgb(111, 209, 30);
+    background-color: rgb(5, 118, 47);
 }
 
 .cart:hover{
-    color: red;
+    color: rgb(32, 99, 144);
 }
 
 .cart{
-    color: rgb(84, 92, 15);
-    margin-top: 10px;
+    color: rgb(235, 229, 233);
+    margin-top: 15px;
     margin-left: 35px;
 }
 
 Link{
     border: 2px solid black;
+}
+
+.count{
+    color: rgb(241, 231, 231);
+    font-weight: bold;
 }
